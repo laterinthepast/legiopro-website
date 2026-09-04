@@ -1,0 +1,6 @@
+# Netlify auto-detects Next.js and runs it on its Next runtime.
+# The enquiry form uses Netlify Forms - registered via public/__forms.html.
+# Set NEXT_PUBLIC_SITE_URL under Site configuration -> Environment variables,
+# and add an email notification under Site configuration -> Forms.
+[build]
+  command = "npm run build"

@@ -1,0 +1,15 @@
+<!doctype html>
+<!-- Static form definition for Netlify Forms. Netlify's build bot reads this
+     file to register the "enquiry" form; the React form in
+     components/ContactForm.tsx posts to it. Field names must match. -->
+<html><body>
+  <form name="enquiry" method="POST" data-netlify="true" netlify-honeypot="website">
+    <input type="hidden" name="form-name" value="enquiry">
+    <input type="text" name="name">
+    <input type="text" name="org">
+    <input type="email" name="email">
+    <input type="tel" name="phone">
+    <textarea name="msg"></textarea>
+    <input type="text" name="website">
+  </form>
+</body></html>
